@@ -50,6 +50,9 @@ services:
         execute: true
   webide:
     service_id: orion
+  test:
+      service_id: saucelabs
+      $ref: saucelabs.yml
 form:
   pipeline:
     parameters:
